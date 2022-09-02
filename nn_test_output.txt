@@ -1,0 +1,48 @@
+[o] Results for <function tokenization at 0x7f7594687200>:
+	[i] Size of X: (6334, 289)
+	[i] Max length from X: 289
+	[i] Number of DL params: 9274579
+Epoch 1/15
+161/161 [==============================] - 71s 431ms/step - loss: 0.4818 - accuracy: 0.7573 - val_loss: 0.3732 - val_accuracy: 0.8491
+Epoch 2/15
+161/161 [==============================] - 66s 410ms/step - loss: 0.1415 - accuracy: 0.9515 - val_loss: 0.4266 - val_accuracy: 0.8404
+Epoch 3/15
+161/161 [==============================] - 67s 415ms/step - loss: 0.0140 - accuracy: 0.9959 - val_loss: 0.6035 - val_accuracy: 0.8526
+[o] [<function tokenization at 0x7f7594687200>] 	 acc = 0.8533123135566711
+
+[o] Results for <function tokenization_with_prep at 0x7f75946873b0>:
+	[i] Size of X: (6334, 289)
+	[i] Max length from X: 289
+	[i] Number of DL params: 7204183
+Epoch 1/15
+161/161 [==============================] - 63s 390ms/step - loss: 0.5281 - accuracy: 0.7236 - val_loss: 0.4598 - val_accuracy: 0.7877
+Epoch 2/15
+161/161 [==============================] - 64s 401ms/step - loss: 0.1977 - accuracy: 0.9263 - val_loss: 0.5196 - val_accuracy: 0.7877
+Epoch 3/15
+161/161 [==============================] - 62s 388ms/step - loss: 0.0300 - accuracy: 0.9922 - val_loss: 0.7430 - val_accuracy: 0.7772
+[o] [<function tokenization_with_prep at 0x7f75946873b0>] 	 acc = 0.8217665553092957
+
+[o] Results for <function tokenization_without_stopwords at 0x7f7594687680>:
+	[i] Size of X: (6334, 289)
+	[i] Max length from X: 289
+	[i] Number of DL params: 7163723
+Epoch 1/15
+161/161 [==============================] - 61s 376ms/step - loss: 0.5389 - accuracy: 0.7156 - val_loss: 0.4360 - val_accuracy: 0.7947
+Epoch 2/15
+161/161 [==============================] - 61s 381ms/step - loss: 0.2006 - accuracy: 0.9275 - val_loss: 0.4912 - val_accuracy: 0.7912
+Epoch 3/15
+161/161 [==============================] - 60s 374ms/step - loss: 0.0324 - accuracy: 0.9906 - val_loss: 0.7123 - val_accuracy: 0.7789
+[o] [<function tokenization_without_stopwords at 0x7f7594687680>] 	 acc = 0.7917981147766113
+
+[o] Results for <function prep_text_with_regex at 0x7f7594687950>:
+	[i] Size of X: (6334, 289)
+	[i] Max length from X: 289
+	[i] Number of DL params: 6377065
+Epoch 1/15
+161/161 [==============================] - 61s 377ms/step - loss: 0.5380 - accuracy: 0.7185 - val_loss: 0.4751 - val_accuracy: 0.7789
+Epoch 2/15
+161/161 [==============================] - 60s 370ms/step - loss: 0.2193 - accuracy: 0.9187 - val_loss: 0.5174 - val_accuracy: 0.7702
+Epoch 3/15
+161/161 [==============================] - 61s 377ms/step - loss: 0.0617 - accuracy: 0.9797 - val_loss: 0.7071 - val_accuracy: 0.7772
+[o] [<function prep_text_with_regex at 0x7f7594687950>] 	 acc = 0.7760252356529236
+
