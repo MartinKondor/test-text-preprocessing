@@ -46,10 +46,10 @@ def prep_text_with_regex(sentences: np.ndarray) -> np.ndarray:
     
     def prep(_sentence: str) -> str:
         sentence = _sentence.strip().lower()
-        sentence = sentence.replace(".", ". ")
-        sentence = sentence.replace("?", "? ")
-        sentence = sentence.replace("!", "! ")
-        sentence = sentence.replace(",", ", ")
+        sentence = sentence.replace(".", "")
+        sentence = sentence.replace("?", "")
+        sentence = sentence.replace("!", "")
+        sentence = sentence.replace(",", "")
 
         # Replace numbers and special characters
         sentence = re.sub("[0-9]+", "x", sentence)
