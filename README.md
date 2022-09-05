@@ -6,7 +6,9 @@
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
-Reviewing different ways of text preprocessing in Python
+Reviewing different ways of text preprocessing in Python.
+
+This repository was made for the Medium Article of **[Preprocessing Text for Machine Learning by Martin Kondor](https://medium.com/@martinkondor/preprocessing-text-for-machine-learning-ee3c47f1db71)**.
 
 ## Getting Started
 
